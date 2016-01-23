@@ -1,0 +1,277 @@
+#wp-editor-widget-container {
+    display: none;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    z-index: 50100;
+    background: #fff;
+}
+
+#wp-editor-widget-container,
+#wp-editor-widget-backdrop {
+    display: none;
+}
+
+#wp-editor-widget-container .editor {
+    margin: 50px;
+}
+
+#wp-editor-widget-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: #000;
+    opacity: .7;
+    z-index: 50000;
+}
+
+#wp-editor-widget-container .close span {
+    display: block;
+    margin: 8px auto 0;
+    width: 15px;
+    height: 15px;
+    background-position: -100px 0;
+    position: absolute;
+    right: 30px;
+}
+
+#wp-editor-widget-container .close span:before
+{
+    color: #000;
+    content: "\f158";
+    display: inline-block;
+    font: normal 20px/1 'dashicons';
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* ------------------------------ HELP PAGE ------------------------------ */
+.gt-help-page ::selection {
+    color: #fff;
+    background: #66d344;
+}
+
+.gt-help-page ul {
+    margin-left: 20px;
+}
+.gt-help-page li {
+    list-style: disc;
+}
+
+.gt-help-page p {
+    line-height: 2em;
+}
+
+.gt-help-page img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gt-help-page hr {
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+    margin: 40px 0;
+}
+
+.gt-help-page .content {
+    width: 65%;
+    margin-right: 5%;
+}
+.gt-help-page .sidebar {
+    width: 30%;
+}
+
+.gt-help-page .content,
+.gt-help-page .sidebar  {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.gt-help-page .page-welcome {
+    margin: 0 0 40px 0;
+    padding: 10px;
+    /*border-bottom: 1px solid #f0f0f0;*/
+    background: #66d344;
+    color: white;
+
+}
+
+.gt-help-page .page-welcome span {
+    font-weight: bold;
+}
+
+.gt-help-page .row :after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.gt-help-page .row  {
+    display: inline-block;
+    width: 100%;
+}
+
+.gt-help-page .row .box {
+    margin: 0;
+}
+
+.gt-help-page .row .one-third {
+    width: 30%;
+    min-height: 180px;
+    margin-right: 3%;
+    float: left;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.gt-help-page .box {
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+    -webkit-transition: ease 0.6s all;
+    -o-transition: ease 0.6s all;
+    transition: ease 0.6s all;
+
+    color: #888;
+}
+
+.gt-help-page .box:hover {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    -webkit-transition: ease 0.2s all;
+    -o-transition: ease 0.2s all;
+    transition: ease 0.2s all;
+
+    color: #333;
+}
+
+.gt-help-page .box > img {
+    opacity: 0.9;
+    -webkit-transition: ease 0.6s all;
+    -o-transition: ease 0.6s all;
+    transition: ease 0.6s all;
+
+}
+.gt-help-page .box:hover > img {
+    opacity: 1;
+    -webkit-transition: ease 0.2s all;
+    -o-transition: ease 0.2s all;
+    transition: ease 0.2s all;
+}
+
+.gt-help-page .box p { line-height: 1.3em; }
+.gt-help-page .box p:first-child { margin-top: 0; }
+.gt-help-page .box p:last-child { margin-bottom: 0; }
+
+.gt-help-page .box.yellow:before,
+.gt-help-page .box.green:before,
+.gt-help-page .box.blue:before {
+    content: "";
+    height: 5px;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.gt-help-page .box.yellow:before { background: #ffd800; }
+.gt-help-page .box.green:before { background: #4fb509; }
+.gt-help-page .box.blue:before { background: #009cff; }
+
+.gt-help-page .box > *:last-child { margin-bottom: 0; padding-bottom: 0; }
+
+.gt-help-page h2.content-title {
+    border-left: 3px solid #333;
+    line-height: 1em;
+    padding: 0 0 0 20px;    
+}
+
+.gt-help-page .dx-footer {
+    border-top: 1px solid #f0f0f0;
+    margin: 30px -30px 0 -30px;
+    padding: 30px 30px 0 30px;
+}
+
+#offer-calc-help-content h3 {
+    margin-top: 20px;
+}
+
+tr .chzn-container{  width:200px !important;}
+tr .chzn-drop { width:198px !important;}
+tr .chzn-search input { width:163px !important;}
+
+@media (max-width: 1000px) {
+    .gt-help-page .row .one-third {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+
+    .gt-help-page .row .one-third:first-child {
+        margin-top: 0;
+    }
+
+    .gt-help-page .sidebar,
+    .gt-help-page .content {
+        width: 100%;
+        float: none;
+    }
+}
+.offer-calc-price-error, .offer-calc-offer-price-error, .offer-calc-vat-amount-error, .offer-calc-meta-error, .offer-calc-url-error, .offer-calc-email-error, .offer-calc-email-error-admin, .offer-calc-radio-error, .offer-calc-multi-select-error, .offer-calc-meta-errors {
+    color: red;
+}
+.wpd-mb-meta-multiple_textbox{
+    /*width:20%;    */
+}
+
+.repeater-table input[type="text"] {
+    width: 100% !important;
+    max-width: 320px;
+}
+
+.repeater-table input[type="text"].wpd-mb-meta-multiple_textbox {
+    width: 100%;
+}
+
+.repeater-table th {
+    width: auto;
+}
+
+@media (min-width: 1200px) {
+    .repeater-table input[type="text"].wpd-mb-meta-multiple_textbox {
+        width: 33.3333% !important;
+        max-width: 100px;
+    }
+
+    .repeater-table input[type="text"] {
+        width: 100% !important;
+        max-width: 267px;
+    }
+}
+
+.oc_error_box{
+    border: solid 1px red !important;
+}
+
+.oc_error_none{
+    border: none;
+}
